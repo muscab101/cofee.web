@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+#section-one{
+    background: url(img/hero.png);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+   
+}
+
+.all {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 6rem;
+    text-align: center;
+    align-items: center;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    
+}
+
+
+#navbar a {
+    color: #f0f0f0;
+}
+
+#navbar .active {
+    font-weight: bold;
+    color: white;
+}
+
+
+.all h1 {
+    color: white;
+    font-size: 26px;
+}
+
+#navbar {
+    display: flex;
+    gap: 40px;
+} 
+
+.btn1 {
+    display: flex;
+}
+
+.oder-button button {
+    padding: 5px 3rem;
+    margin: 10px 0;
+    border-radius: 7px;
+    border: none;
+    background-color: #FFFFFF;
+}
+
+.cart-icon {
+    position: relative;
+}
+
+.number-cart p{
+    position: absolute;
+    left: 6px;
+    top: 0;
+    bottom: 100px;
+    font-size: 15px;
+}
+
+.cart-icon i {
+    font-size: 25px;
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    color: #FFFFFF;
+}
+
+.number-cart {
+    background-color: #f0f0f0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    left: 34px;
+}
+
+
+
+.text-box-blur {
+    width: 300px;
+    height: 200px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 210px;
+    left: 50px;
+    padding: 30px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.hot-box{
+    background-color: white;
+    box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.2);
+    height: 230px;
+    width: 200px;
+    position: relative;
+}
+
+.icon-hot {
+    margin-top: 130px;
+    margin-left: 20px;
+}
+
+.box1 h3 {
+    color: #009258;
+}
+
+.box1 img {
+    position: absolute;
+    left: 30px;
+    bottom: 130px;
+}
